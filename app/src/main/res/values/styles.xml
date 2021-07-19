@@ -1,0 +1,105 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">@color/white</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+
+        <!--        <item name="android:windowTranslucentStatus" tools:ignore="NewApi">true</item>-->
+        <!--        <item name="android:windowTranslucentNavigation" tools:ignore="NewApi">true</item>-->
+
+    </style>
+
+
+    <style name="chipTheme"  parent="Theme.MaterialComponents.Light.NoActionBar" />
+
+   <!-- // styles.xml
+    <style name="ChipStyle" parent="Widget.MaterialComponents.Chip.Choice">
+    <item name="chipBackgroundColor">@color/chip_background_color_state_list</item>
+    <item name="android:textAppearance">@style/ChipTextAppearance</item>
+    <item name="android:textColor">@color/secondary_dark_blue</item>
+    </style>
+-->
+
+
+    <style name="TextAppearance.BottomNavigationView.Inactive." parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/barlow_bold</item>
+    </style>
+
+    <style name="BottomNavigationView.Active" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/barlow_bold</item>
+    </style>
+
+    <style name="AppTheme1" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowDisablePreview">true</item>
+
+    </style>
+
+    <style name="tabLayoutTitles">
+        <item name="android:textColor">@color/medium_grey</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/barlow_regular</item>
+
+    </style>
+
+
+    <style name="ChipTextStyle_Selected">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/darkgrey</item>
+        <item name="android:fontFamily">@font/barlow_regular</item>
+        <!--<item name="chipIconTint">@color/colorHeading</item>-->
+    </style>
+
+
+    <style name="FullScreenTheme" parent="AppTheme">
+        <!--this property will help hide the ActionBar-->
+        <item name="windowNoTitle">true</item>
+        <!--currently, I don't know why we need this property since use windowNoTitle only already help hide actionbar. I use it because it is used inside Theme.AppCompat.Light.NoActionBar (you can check Theme.AppCompat.Light.NoActionBar code). I think there are some missing case that I don't know-->
+        <item name="windowActionBar">false</item>
+        <!--this property is used for hiding StatusBar-->
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <!--<item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
+        <item name="android:windowTranslucentNavigation" tools:targetApi="kitkat">true</item>-->
+    </style>
+
+
+    <!--    <style name="customfontstyle" parent="@android:style/TextAppearance.Small">-->
+    <!--        <item name="android:fontFamily">@font/barlow_medium</item>-->
+
+    <!--    </style>-->
+    <style name="CustomTabTextAppearance" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/barlow_bold</item>
+    </style>
+
+
+    <!--    <style name="CustomTabLayout" parent="Widget.Design.TabLayout">-->
+    <!--        <item name="tabMaxWidth">20dp</item>-->
+    <!--        <item name="tabMode">scrollable</item>-->
+    <!--        <item name="tabIndicatorColor">?attr/colorAccent</item>-->
+    <!--        <item name="tabIndicatorHeight">2dp</item>-->
+    <!--        <item name="tabPaddingStart">12dp</item>-->
+    <!--        <item name="tabPaddingEnd">12dp</item>-->
+    <!--        <item name="tabBackground">?attr/selectableItemBackground</item>-->
+    <!--        <item name="tabTextAppearance">@style/CustomTabTextAppearance</item>-->
+    <!--    </style>-->
+    <!--    <style name="CustomTabTextAppearance" parent="TextAppearance.Design.Tab">-->
+    <!--        <item name="android:textSize">16sp</item>-->
+    <!--        <item name="android:fontFamily">@font/barlow_bold</item>-->
+    <!--        <item name="android:textColor">?android:textColorSecondary</item>-->
+    <!--        <item name="textAllCaps">false</item>-->
+    <!--    </style>-->
+</resources>

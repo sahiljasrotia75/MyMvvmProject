@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">NilusCoach</string>
+    <string name="upgrade_to_get_unlimited_access">Upgrade to get unlimited Access!!</string>
+    <string name="unlimited_access_to_all">Unlimited access to all.</string>
+    <string name="tracking_exercise">Tracking for every exercise.</string>
+    <string name="personalised_plans">Personalised plans.</string>
+    <string name="subscribe_now">SUBSCRIBE NOW</string>
+    <string name="heading_text_subscription">A full year of personalized fitness, for less than one session with a trainer.</string>
+    <string name="home">Home</string>
+    <string name="activities">Activities</string>
+    <string name="profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="suggested_workouts">Suggested Workouts</string>
+    <string name="categories">Categories</string>
+    <string name="programs">Programs</string>
+    <string name="start_workout">start workout</string>
+    <string name="description">Description</string>
+    <string name="score">Score</string>
+    <string name="forgot_password">FORGOT PASSWORD</string>
+    <string name="forgot_your_password">Forgot your Password?</string>
+    <string name="your_email">Your Email</string>
+    <string name="send">SEND</string>
+    <string name="resend_password">Reset password link sent to your email</string>
+    <string name="txt_forgot_Password">Forgot Password?</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="don_t_have_an_account_register">Don\'t have an account?</string>
+    <string name="upload_profile_photo">Upload Profile Photo</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="gender">Gender</string>
+    <string name="age">Age</string>
+    <string name="what_is_your_fitness_level">What is your fitness level?</string>
+    <string name="done">DONE</string>
+    <string name="register">Register</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="what_are_your_fitness_goals">What are your fitness goals?</string>
+    <string name="or">or</string>
+    <string name="exercises">Exercises</string>
+    <string name="facebook_app_id">748909869018595</string>
+    <string name="fb_login_protocol_scheme">fb748909869018595</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="place_on_the_floor">PLACE ON THE FLOOR</string>
+    <string name="lean_device_back">Lean Device Back</string>
+    <string name="intro">INTRO</string>
+    <string name="cancel_amp_exit"><![CDATA[Cancel & Exit]]></string>
+    <string name="finish_early">Finish Early</string>
+    <string name="get_ready">Get Ready</string>
+    <string name="reps">reps</string>
+    <string name="remaining">remaining</string>
+    <string name="next">Next</string>
+    <string name="edt_profile">Edit Profile</string>
+    <string name="settings">Settings</string>
+    <string name="update_password">Update Password</string>
+    <string name="update">UPDATE</string>
+    <string name="workouts">Workouts</string>
+    <string name="total_time">Total Time</string>
+    <string name="workout_history">Workout History</string>
+    <string name="top_exercises">Top Exercises</string>
+
+    <string name="take_photo">TAKE PHOTO</string>
+    <string name="permission_required">Permission Required</string>
+    <string name="permission_message">You must grant permission to access camera and external storage to run this application.</string>
+    <string name="permission_warning">All permissions are required.</string>
+    <string name="share">Share!</string>
+    <string name="logout">Are you sure you want to logout?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+
+</resources>

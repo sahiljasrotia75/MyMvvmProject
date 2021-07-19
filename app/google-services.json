@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "987862398438",
+    "firebase_url": "https://niluscoach.firebaseio.com",
+    "project_id": "niluscoach",
+    "storage_bucket": "niluscoach.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987862398438:android:6f871cdec5919e8fc35227",
+        "android_client_info": {
+          "package_name": "com.app.niluscoach"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987862398438-kloqsdjva2ta9nb1ksredtiriimd79id.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.niluscoach",
+            "certificate_hash": "a36ea84f0f6462a7c5addb1e21fb3eb5c813b7aa"
+          }
+        },
+        {
+          "client_id": "987862398438-i6l1v7uudoc2etar839n5kqmdebk3ihl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmhicf_Y1xAi2bn8WeQEg-mc_PmBuom5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "987862398438-i6l1v7uudoc2etar839n5kqmdebk3ihl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
